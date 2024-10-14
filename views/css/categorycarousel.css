@@ -1,0 +1,30 @@
+#category-carousel img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.product-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.category-column {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.category-1 {
+    background-image: url("https://mediumturquoise-cheetah-573749.hostingersite.com/modules/ps_imageslider/images/9b2500f06cb89c12c8c2a5b295893626dccb8704_FW.jpeg");
+}
+
+.category-2 {
+    background-image: url("../img/SW.jpeg");
+}
+
+.category-3 {
+    background-image: url("../img/CO.jpeg");
+}
